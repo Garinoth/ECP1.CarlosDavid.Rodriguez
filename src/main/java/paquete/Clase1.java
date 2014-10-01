@@ -46,4 +46,8 @@ public class Clase1 {
     public void mostrarSuma() {
         System.out.println("Suma: " + this.sumaAtributos());
     }
+    
+    public void mostrarResta() {
+        System.out.println("Suma: " + this.restaAtributos());
+    }
 }
