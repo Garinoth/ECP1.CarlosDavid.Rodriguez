@@ -36,6 +36,6 @@ public class Clase1 {
     }
     
     public void mostrarSuma() {
-        System.out.println("Suma: " + this.sumaAtributos());
+        System.out.println("La suma es: " + this.sumaAtributos());
     }
 }
