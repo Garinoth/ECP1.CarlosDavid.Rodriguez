@@ -34,4 +34,8 @@ public class Clase1 {
         System.out.println("Atributo 1: " + this.atributo1);
         System.out.println("Atributo 2: " + this.atributo2);
     }
+    
+    public void mostrarSuma() {
+        System.out.println("Suma: " + this.sumaAtributos());
+    }
 }
