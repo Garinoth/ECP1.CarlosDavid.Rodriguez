@@ -29,4 +29,8 @@ public class Clase1 {
     public int restaAtributos() {
         return this.atributo1 - this.atributo2;
     }
+    
+    public int multiplicacionAtributos() {
+        return this.atributo1 * this.atributo2;
+    }
 }
