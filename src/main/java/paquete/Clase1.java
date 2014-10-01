@@ -48,6 +48,10 @@ public class Clase1 {
     }
     
     public void mostrarResta() {
-        System.out.println("Suma: " + this.restaAtributos());
+        System.out.println("Resta: " + this.restaAtributos());
+    }
+    
+    public void mostrarMultiplicación() {
+        System.out.println("Multiplicación: " + this.restaAtributos());
     }
 }
