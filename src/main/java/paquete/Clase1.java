@@ -25,4 +25,8 @@ public class Clase1 {
     public void setAtributo1(int atributo1) {
         this.atributo1 = atributo1;
     }
+    
+    public int sumaAtributos() {
+        return this.atributo1 + this.atributo2;
+    }
 }
