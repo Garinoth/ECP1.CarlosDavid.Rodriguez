@@ -46,6 +46,11 @@ public class Clase1 {
     public void resetearAtributo2() {
         this.atributo2 = 0;
     }
+    
+    public void resetarAtibutos() {
+        this.resetearAtributo1();
+        this.resetearAtributo2();
+    }
 
     public void mostrarAtributos() {
         System.out.println("El atributo 1 es: " + this.atributo1);
