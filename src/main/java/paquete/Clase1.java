@@ -33,4 +33,17 @@ public class Clase1 {
     public int multiplicacionAtributos() {
         return this.atributo1 * this.atributo2;
     }
+
+        public int sumaAtributos() {
+        return this.atributo1 + this.atributo2;
+    }
+    
+    public void mostrarAtributos() {
+        System.out.println("Atributo 1: " + this.atributo1);
+        System.out.println("Atributo 2: " + this.atributo2);
+    }
+    
+    public void mostrarSuma() {
+        System.out.println("Suma: " + this.sumaAtributos());
+    }
 }
